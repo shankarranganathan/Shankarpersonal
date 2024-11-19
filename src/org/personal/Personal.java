@@ -11,15 +11,25 @@ public class Personal {
 	private void childName() {
 		System.out.println("jai"+">>>"+"sai");
 	}
-	private void anotherchildName() {
+
+	private void anotherChild() {
 		System.out.println("siva");
 	}
+	private void house() {
+		System.out.println(" we built a house in bajanakovil street");
+	}
+
+	
 public static void main(String[] args) {
 	Personal p=new Personal();
 	p.myname();
 	p.mywifename();
 	p.childName();
-	p.anotherchildName();
+
+	p.anotherChild();
+	p.house();
+
+
 }
 	
 
